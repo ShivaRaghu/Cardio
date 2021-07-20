@@ -78,7 +78,7 @@ ggplot(heart_data,
   labs(title = "Follow-up period by death event",
        x = "Death Event", y = "Follow-up period(days)")+ scale_fill_manual(values=c("#999999", "#E69F00", "#56B4E9"))
 ```
-
+![](https://github.com/ShivaRaghu/Cardio/blob/aaf54b3cd021064e364eca01d4777b2ae2a39cad/CVD_Age%20plot.png)
 On exploratory analysis, I also observed that four variables were not strongly correlated with DEATH_EVENT and probably not worth measuring too are:-
 anaemia, creatinine_phosphokinase(CPK),serum_sodium, and platelets). Please find the plots below:
 
