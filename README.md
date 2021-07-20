@@ -111,6 +111,8 @@ ggplot(heart_data,
 Correlation among continuous variables:
 On observing the correlation among continuous variables in the data, I do not see any strongly correlated variables. There is some correlation between time & age as well as serum sodium and serum creatinine levels
 
+![] (https://raw.githubusercontent.com/ShivaRaghu/Cardio/main/Correlation%20plot%20CVD.tiff)
+
 ```{r,echo = FALSE,out.width="50%" }
 corr_heart <- cor(heart_data[, c(1,3,5,7,8,9,12)])
 corrplot(corr_heart, type="upper", order="hclust",
