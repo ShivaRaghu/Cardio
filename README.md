@@ -64,9 +64,6 @@ ggplot(heart_data,
   geom_boxplot() +
   labs(title = "Ejection Fraction(%) by death event",
        x = "Death Event", y = "Ejection Fraction(%)")
-       
-![](https://github.com/ShivaRaghu/Cardio/blob/73732f3131ecdd9fcf6248c05b6d0dba57a80e9e/Eject%20Fraction%20plot.png)
-
 ggplot(heart_data, 
        aes(x = DEATH_EVENT, 
            y = log(serum_creatinine),fill = DEATH_EVENT)) +
@@ -84,6 +81,7 @@ ggplot(heart_data,
 ```
 ![](https://github.com/ShivaRaghu/Cardio/blob/aaf54b3cd021064e364eca01d4777b2ae2a39cad/CVD_Age%20plot.png)
 
+![](https://github.com/ShivaRaghu/Cardio/blob/73732f3131ecdd9fcf6248c05b6d0dba57a80e9e/Eject%20Fraction%20plot.png)
 
 On exploratory analysis, I also observed that four variables were not strongly correlated with DEATH_EVENT and probably not worth measuring too are:-
 anaemia, creatinine_phosphokinase(CPK),serum_sodium, and platelets). Please find the plots below:
