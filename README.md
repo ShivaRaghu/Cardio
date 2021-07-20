@@ -121,6 +121,8 @@ corrplot(corr_heart, type="upper", order="hclust",
 
 # Fit the Classification tree model
 
+![](https://github.com/ShivaRaghu/Cardio/blob/48945313850ec7814cc6fab463af18373fdb4014/Classification%20tree%20model%20for%20CVD.png)
+
 There were 4 variables (sex, smoking, high_blood_pressure, and diabetes) which did not show any strong correlation with DEATH_EVENT however as they are predictors of behavioral risk hence I fitted several trees with and without them and looked at the residual mean deviance, misclassification error rate, total residual deviance to compare the fit of the tree model. 
 
 I also scaled the continuous variables - ejection_fraction and serum_creatinine and compared different tree models with scaled and unscaled variables and did not observe any difference of scaling on the tree output, hence I am using the unscaled variables (ejection_fraction, serum_creatinine) for the classification tree model. 
