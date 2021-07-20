@@ -64,12 +64,16 @@ ggplot(heart_data,
   geom_boxplot() +
   labs(title = "Ejection Fraction(%) by death event",
        x = "Death Event", y = "Ejection Fraction(%)")
+       
+![](https://github.com/ShivaRaghu/Cardio/blob/73732f3131ecdd9fcf6248c05b6d0dba57a80e9e/Eject%20Fraction%20plot.png)
+
 ggplot(heart_data, 
        aes(x = DEATH_EVENT, 
            y = log(serum_creatinine),fill = DEATH_EVENT)) +
   geom_boxplot() +
   labs(title = "Serum creatinine by death event",
        x = "Death Event", y = "log(serum creatinine) mg/dL")
+   
 # TIME
 ggplot(heart_data, 
        aes(x = DEATH_EVENT, 
